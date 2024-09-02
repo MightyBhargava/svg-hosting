@@ -1,0 +1,23 @@
+<svg width="400" height="100" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .text { 
+      font-family: Arial, sans-serif; 
+      font-size: 24px; 
+      fill: orange;
+      animation: rotate 6s infinite;
+    }
+    @keyframes rotate {
+      0%, 20% { opacity: 1; }
+      25%, 100% { opacity: 0; }
+    }
+    .text:nth-child(2) {
+      animation-delay: 2s;
+    }
+    .text:nth-child(3) {
+      animation-delay: 4s;
+    }
+  </style>
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" class="text">Freelancer</text>
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" class="text">UX &amp; UI Designer</text>
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" class="text">Software Developer</text>
+</svg>
