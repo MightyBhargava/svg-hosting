@@ -1,0 +1,6 @@
+<svg width="600" height="100" xmlns="http://www.w3.org/2000/svg">
+  <rect x="10" y="10" width="580" height="80" rx="15" ry="15" style="fill:skyblue;stroke:black;stroke-width:2;"/>
+  <text x="50%" y="50%" alignment-baseline="middle" text-anchor="middle" font-size="24" fill="black" font-family="Arial">
+    Thank you for watching this page!
+  </text>
+</svg>
